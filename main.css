@@ -1,0 +1,51 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://usdtoreros.com/images/2019/2/1/Team_Tunnel.png?width=1416&height=796&mode=crop);
+
+}
+
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.text{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    color:darkred;
+}
+
+.group{
+    flex-basis: 40%;
+    border: 1px solid darkblue;
+    background-color: lightcyan;
+    margin: 10px;
+/*  display: flex;
+    flex-direction: column;
+    justify-content: center;
+*/
+}
+
+.group div img{
+    margin-left: 46%;
+}
+ 
+
+ 
+.football_teams{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
