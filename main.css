@@ -4,27 +4,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
-    background: url(https://usdtoreros.com/images/2019/2/1/Team_Tunnel.png?width=1416&height=796&mode=crop);
-
+    background-color: black;
 }
 
-
-.img-overlay{
+.back{
+    width: 675px;
+    background: url(https://www.footboom.net/img/upload/2/50757-Barselona.jpeg);
     position: absolute;
+    left: 300px;
     top: 0;
-    width: 100%;
-    height: 1035px;
-    background: rgba(255,0,0,0.5);
-    z-index: 1;
     
+
     
 }
+.football_teams{
+    background-color:  rgba(189,7,7,0.8);
+    
+}
+
 img{
     width: 40px;
     height: 40px;
-    z-index: 999;
+    margin: 5px;
 
 }
 
@@ -36,13 +38,6 @@ img{
 hr{
     height: 2px;
 }
-/*
-p{
-    text-align: center;
-    font-weight: bold;
-    color:darkred;
-}
-*/
 
 .football_teams{
     display: flex;
@@ -54,19 +49,12 @@ p{
 
 .group{
     flex-basis: 40%;
-    /*border: 1px solid darkblue;
-    background-color: lightcyan;
-    */
     margin: 10px;
     padding: 15px;
     
 }
-/*  display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}
-*/.group div strong {
+.group div strong {
     margin: 15px;
 }
 
