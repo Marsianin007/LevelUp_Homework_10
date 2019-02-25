@@ -11,23 +11,29 @@ body{
 .back{
     width: 675px;
     background: url(https://www.footboom.net/img/upload/2/50757-Barselona.jpeg);
-    position: absolute;
-    left: 300px;
     top: 0;
-    
-
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
     
 }
 .football_teams{
     background-color:  rgba(189,7,7,0.8);
-    
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+
 }
 
 img{
-    width: 40px;
-    height: 40px;
-    margin: 5px;
-
+    width: 30px;
+    height: 30px;
 }
 
 .text{
@@ -35,23 +41,20 @@ img{
     color: white;
 }
 
-hr{
-    height: 2px;
+h2{
+    border: 2px solid silver;
 }
 
 .football_teams{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
-    
 }
 
 .group{
     flex-basis: 40%;
     margin: 10px;
     padding: 15px;
-    
 }
 
 .group div strong {
